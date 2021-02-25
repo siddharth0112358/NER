@@ -1,0 +1,19 @@
+{
+    "model_type": "crf",
+    "bert_model_path": "/Users/sdeshpande/Desktop/text_analysis_scripts/biomedical_bert_ner/scibert_scivocab_uncased/pytorch_model.bin",
+    "bert_vocab_path": "/Users/sdeshpande/Desktop/text_analysis_scripts/biomedical_bert_ner/scibert_scivocab_uncased/vocab.txt",
+    "bert_config_path": "/Users/sdeshpande/Desktop/text_analysis_scripts/biomedical_bert_ner/scibert_scivocab_uncased/config.json",
+    "tokenizer_do_lower_case": true,
+    "final_model_saving_dir": "/Users/sdeshpande/Desktop/text_analysis_scripts/biomedical_bert_ner/Final_models/",
+    "max_seq_length": 128,
+    "train_batch_size": 32,
+    "validation_batch_size": 32,
+    "num_epochs": 5,
+    "finetune": false,
+    "num_special_tokens": 2,
+    "learning_rate": 2e-5,
+    "epsilon": 1e-8,
+    "warmup_steps": 20,
+    "scheduler_cycles": 2,
+    "max_grad_norm": 1.0
+}
